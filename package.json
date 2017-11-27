@@ -1,0 +1,40 @@
+{
+  "name": "deltafx35c.com",
+  "version": "1.0.0",
+  "description": "deltafx35c homepage for PC",
+  "author": "xijing <298511448@qq.com>",
+  "private": true,
+  "scripts": {
+    "dev": "backpack dev",
+    "build": "nuxt build && backpack build",
+    "generate": "nuxt generate",
+    "start": "cross-env NODE_ENV=production pm2 start build/main.js -f -i max",
+    "precommit": "npm run lint",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "cross-env": "^5.0.1",
+    "element-ui": "^1.4.10",
+    "express": "^4.15.3",
+    "log4js": "^2.3.12",
+    "nuxt": "latest",
+    "source-map-support": "^0.4.15",
+    "vue-cookie": "^1.1.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-component": "^0.10.1",
+    "backpack-core": "^0.4.1",
+    "eslint": "^4.3.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^3.1.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6"
+  }
+}
