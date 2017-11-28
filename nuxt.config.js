@@ -3,12 +3,12 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: '贷款，融资 - 专注中小企业贷款，房产汽车抵押贷款，小额贷款，银行贷款 - 东方融资网',
+    title: 'nuxt',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, height=device-height, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0' },
-      { hid: 'keywords', name: 'keywords', content: '贷款，中小企业贷款，小额贷款，融资' },
-      { hid: 'description', name: 'description', content: '东方融资网为你提供专业的贷款、融资服务。找上海、苏州、广州、杭州、合肥、宁波、南京、无锡全国各地贷款公司、中小企业贷款、银行贷款，尽在东方融资网。' },
+      { hid: 'keywords', name: 'keywords', content: 'vue，nuxt，ssr' },
+      { hid: 'description', name: 'description', content: 'a server-side-render website built with nuxt' },
       { hid: 'location', name: 'location', content: 'province = 上海; city = 上海; coord = 121.487899,31.249162' },
       { hid: 'http-equiv', 'http-equiv': 'X-UA-Compatible', content: 'IE=edge,chrome=1' },
       { hid: 'http-equiv', 'http-equiv': 'cache-control', content: 'no-cache' },
