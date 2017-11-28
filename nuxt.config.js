@@ -30,7 +30,6 @@ module.exports = {
   */
   plugins: [
     { src: '~plugins/element-ui', ssr: true },
-    { src: '~plugins/statistics', ssr: false },
     { src: '~plugins/localstorage', ssr: false },
     { src: '~plugins/cookie', ssr: false }
   ],

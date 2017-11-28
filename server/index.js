@@ -10,7 +10,7 @@ const port = process.env.PORT || 8080
 app.set('port', port)
 
 // Import API Routes
-app.use('/api', api)
+app.use('/pcapi', api)
 
 // Import log4js
 log4js.use(app)

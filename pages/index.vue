@@ -29,7 +29,7 @@ export default {
     }
   },
   async asyncData () {
-    let { data } = await axios.get('/api/users')
+    let { data } = await axios.get('/pcapi/users')
     return { users: data }
   },
   head () {

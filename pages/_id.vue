@@ -20,7 +20,7 @@ export default {
   name: 'id',
   async asyncData ({ params, error }) {
     try {
-      let { data } = await axios.get('/api/users/' + params.id)
+      let { data } = await axios.get('/pcapi/users/' + params.id)
       return { user: data }
     } catch (err) {
       error({ statusCode: 404, message: 'User not found' })
