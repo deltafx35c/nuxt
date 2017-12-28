@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <sub-header/>
-      <h1>原始的网页写法</h1>
+      <h1>古典的网页写法</h1>
       <p>
         首先，让我们用最原始的方式来使用 HTML 和 Javascript 来写一个网页 -手动下载和内联文件。像下图这样：
       </p>
